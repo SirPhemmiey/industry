@@ -8,7 +8,7 @@ A designed and developed database structure of different industries for playspre
 
 [CakePHP](http://www.cakephp.org) - The rapid development PHP framework
 
-[MySQL](http://www.jquery.com) - An Open Source RDMS
+[MySQL](http://www.mysql.com) - An Open Source RDMS
 
 [jQuery](http://www.jquery.com) - A fast, small, and feature-rich JavaScript library
 
