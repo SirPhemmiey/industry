@@ -1,7 +1,7 @@
 # Industry
 
 
-A designed and developed database structure of different industries for playspread.com 
+A designed and developed database structure of different industries in nigeria for playspread.com 
 
 
 ## Some Handy Links
