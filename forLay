@@ -1,0 +1,1081 @@
+  <li>
+            <a href="<?php echo $this->webroot;?>home"><i class="icon-office"></i> <span>Industries</span></a>
+            <ul>
+            <li>
+            <a href="<?php echo $this->webroot;?>banking">Banking</a>
+            <ul>
+            <li>
+            <a href="#">
+                <i class="icon-stack3 position-left"></i>Accounts</a>
+            <ul>
+                <li><a href="#">Current Account</a>
+                 <ul>
+                     <?php
+                     foreach($current_account as $bank_names){
+                         $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                     <li>
+                         <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#accounts">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                        </li>
+                     <?php }?>
+                 </ul>
+                </li>
+                <li><a href="#">Status Account</a>
+                    <ul>
+                        <?php
+                        foreach($status_account as $bank_names){
+                            $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                        <li>
+                            <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#accounts">
+                                <?php echo $bank_names['Banking']['bank_names'];?></a>
+                        </li>
+                        <?php }?>
+                    </ul>
+                </li>
+                <li><a href="#">Term Deposit</a>
+                    <ul>
+                        <?php
+                        foreach($term_deposits as $bank_names){
+                            $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                        <li>
+                            <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#accounts">
+                                <?php echo $bank_names['Banking']['bank_names'];?></a>
+                        </li>
+                        <?php }?>
+                    </ul>
+                </li>
+                <li><a href="#">Savings Account</a>
+                    <ul>
+                        <?php
+                        foreach($savings_account as $bank_names){
+                            $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                        <li>
+                            <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#accounts">
+                                <?php echo $bank_names['Banking']['bank_names'];?></a>
+                        </li>
+                        <?php }?>
+                    </ul>
+                </li>
+                <li><a href="#">Individual Retirement Account</a>
+                    <ul>
+                        <?php
+                        foreach($individual as $bank_names){
+                            $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                        <li>
+                            <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#accounts">
+                                <?php echo $bank_names['Banking']['bank_names'];?></a>
+                        </li>
+                        <?php }?>
+                    </ul>
+                </li>
+                <li><a href="#">Foreign Areas/Domicilary</a>
+                    <ul>
+                        <?php
+                        foreach($foreign_areas as $bank_names){
+                            $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                        <li>
+                            <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#accounts">
+                                <?php echo $bank_names['Banking']['bank_names'];?></a>
+                        </li>
+                        <?php }?>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+            <li>
+            <a href="#">
+                <i class="icon-vcard position-left"></i>Card Services</a>
+                <ul>
+                   <li>
+                   <a href="#">Debit Card</a>
+                   <ul>
+                       <?php
+                       foreach($debit_card as $bank_names){
+                           $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                       <li>
+                           <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#card_services">
+                               <?php echo $bank_names['Banking']['bank_names'];?></a>
+                       </li>
+                       <?php }?>
+                   </ul>
+                   </li>
+                   <li><a href="#">Credit Card</a>
+                   <ul>
+                       <?php
+                       foreach($credit_card as $bank_names){
+                           $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                       <li>
+                           <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#card_services">
+                               <?php echo $bank_names['Banking']['bank_names'];?></a>
+                       </li>
+                       <?php }?>
+                   </ul>
+                   </li>
+                   <li><a href="#">Others</a>
+                   <ul>
+                       <?php
+                       foreach($others as $bank_names){
+                           $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                       <li>
+                           <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#card_services">
+                               <?php echo $bank_names['Banking']['bank_names'];?></a>
+                       </li>
+                       <?php }?>
+                   </ul>
+                   </li>
+                </ul>
+            </li>
+            <li>
+            <a href="#">
+                <i class="icon-transmission position-left"></i>E Services</a>
+            <ul>
+            <li><a href="#">Mobile/Internet Banking</a>
+            <ul>
+                <?php
+                foreach($m_internet_banking as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#e_services">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Transaction_banking</a>
+            <ul>
+                <?php
+                foreach($transaction_banking as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#e_services">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Others</a>
+            <ul>
+                <?php
+                foreach($others2 as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#e_services">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            <li>
+            <a href="#">
+                <i class="icon-stack3 position-left"></i>Kids and Teens</a>
+            <ul>
+            <li><a href="#">Savings Account</a>
+            <ul>
+                <?php
+                foreach($kids_savings_account as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#kids">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            <li>
+            <a href="#">
+                <i class="icon-stack3 position-left"></i>Loan and Advances</a>
+            <ul>
+            <li><a href="#">Home loan</a>
+            <ul>
+                <?php
+                foreach($home_loan as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#loan">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Auto loan</a>
+            <ul>
+                <?php
+                foreach($auto_loan as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#loan">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Other Credit Facilities</a>
+            <ul>
+                <?php
+                foreach($other_credit_facilities as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#loan">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">International trade finance</a>
+            <ul>
+                <?php
+                foreach($international_trade_finance as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#loan">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Private sector enterprises</a>
+            <ul>
+                <?php
+                foreach($private_sector_enter as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#loan">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Small business loans</a>
+            <ul>
+                <?php
+                foreach($small_business_loans as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#loan">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Health</a>
+            <ul>
+                <?php
+                foreach($health as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#loan">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Public sector</a>
+            <ul>
+                <?php
+                foreach($public_sector as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#loan">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Unsecured signature/Personal loans</a>
+            <ul>
+                <?php
+                foreach($unsecured_signature as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#loan">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Home equity lines of credit</a>
+            <ul>
+                <?php
+                foreach($home_equity as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#loan">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            <li>
+            <a href="#">
+                <i class="icon-stack3 position-left"></i>Investments</a>
+            <ul>
+            <li><a href="#">Annuities</a>
+            <ul>
+                <?php
+                foreach($annuities as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#investments">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Insurance</a>
+            <ul>
+                <?php
+                foreach($insurance as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#investments">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Stocks, mutual funds and wealth</a>
+            <ul>
+                <?php
+                foreach($stocks as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#investments">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            <li>
+            <a href="#">
+                <i class="icon-stack3 position-left"></i>Money Transfer Services</a>
+            <ul>
+            <li><a href="#">Local transfer</a>
+            <ul>
+                <?php
+                foreach($local_transfer as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#money_transfer">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">International money services</a>
+            <ul>
+                <?php
+                foreach($international_money_services as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#money_transfer">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            <li>
+            <a href="#">
+                <i class="icon-stack3 position-left"></i>Merchant Services</a>
+            <ul>
+            <li><a href="#">Current account services</a>
+            <ul>
+                <?php
+                foreach($current_account_services as $bank_names){
+                    $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                <li>
+                    <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#merchant_services">
+                        <?php echo $bank_names['Banking']['bank_names'];?></a>
+                </li>
+                <?php }?>
+            </ul>
+            </li>
+            <li><a href="#">Merchant other services</a>
+               <ul>
+                   <?php
+                   foreach($merchant_other_services as $bank_names){
+                       $bank_id = $bank_names['Banking']['banking_id'];           ?>
+                   <li>
+                       <a href="<?php echo $this->webroot;?>banking/edit?bank=<?php echo trim($bank_id);?>#merchant_services">
+                           <?php echo $bank_names['Banking']['bank_names'];?></a>
+                   </li>
+                   <?php }?>
+               </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            <li>
+            <a href="<?php echo $this->webroot;?>fmcg">FMCGs</a>
+            <ul>
+            <li class=""><a href="#">
+            <i class="icon-basket position-left"></i>Convinience Products</a>
+            <ul>
+                <li><a href="">Food</a>
+                    <ul>
+                        <li><a href="#">Fish and Fish Products</a>
+                        <ul>
+                            <?php
+                            foreach($fish_and_fish_products as $companies){
+                                $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                            <li>
+                                <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                    <?php echo $companies['Fmcg']['companies'];?></a>
+                            </li>
+                            <?php }?>
+                        </ul>
+                        </li>
+                        <li><a href="#">Fruit and Vegetables</a>
+                                    <ul>
+                                        <?php
+                                        foreach($fruit_and_vegetables as $companies){
+                                            $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                        <li>
+                                            <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                                <?php echo $companies['Fmcg']['companies'];?></a>
+                                        </li>
+                                        <?php }?>
+                                    </ul>
+                        </li>
+                        <li><a href="#">Vegetable and Animal Oils</a>
+                            <ul>
+                                <?php
+                                foreach($vegetable_and_animal_oil as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Diary Products</a>
+                            <ul>
+                                <?php
+                                foreach($diary_products as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Grainmill Products</a>
+                            <ul>
+                                <?php
+                                foreach($grainmill_products as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Starch and Starch Products</a>
+                            <ul>
+                                <?php
+                                foreach($starch_and_starch_products as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Animal Feeds</a>
+                            <ul>
+                                <?php
+                                foreach($animal_feeds as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Bakery Products</a>
+                            <ul>
+                                <?php
+                                foreach($bakery_products as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sugar</a>
+                            <ul>
+                                <?php
+                                foreach($sugar as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Cocoa,Chocolate and Sugar Confectioneries</a>
+                            <ul>
+                                <?php
+                                foreach($coc_choc_sug_confec as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Macaroni, Noodles</a>
+                            <ul>
+                                <?php
+                                foreach($macaroni as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Food Condiments</a>
+                            <ul>
+                                <?php
+                                foreach($food_condiments as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Agriculture</a>
+                            <ul>
+                                <?php
+                                foreach($agriculture as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Lighter</a>
+                            <ul>
+                                <?php
+                                foreach($lighter as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Others/Baby Products</a>
+                            <ul>
+                                <?php
+                                foreach($other_food_products as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li><a href="#">Cleaning Product</a>
+                <ul>
+                    <li><a href="#">Soap</a>
+                        <ul>
+                            <?php
+                            foreach($soap as $companies){
+                                $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                            <li>
+                                <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                    <?php echo $companies['Fmcg']['companies'];?></a>
+                            </li>
+                            <?php }?>
+                        </ul>
+                    </li>
+                    <li><a href="#">Detergents</a>
+                        <ul>
+                            <?php
+                            foreach($detergent as $companies){
+                                $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                            <li>
+                                <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                    <?php echo $companies['Fmcg']['companies'];?></a>
+                            </li>
+                            <?php }?>
+                        </ul>
+                    </li>
+                    <li><a href="#">Airfreshner</a>
+                        <ul>
+                            <?php
+                            foreach($airfreshner as $companies){
+                                $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                            <li>
+                                <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                    <?php echo $companies['Fmcg']['companies'];?></a>
+                            </li>
+                            <?php }?>
+                        </ul>
+                    </li>
+                    <li><a href="#">Disinfectant</a>
+                        <ul>
+                            <?php
+                            foreach($disinfectant as $companies){
+                                $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                            <li>
+                                <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                    <?php echo $companies['Fmcg']['companies'];?></a>
+                            </li>
+                            <?php }?>
+                        </ul>
+                    </li>
+                    <li><a href="#">Cleaning Preparations</a>
+                        <ul>
+                            <?php
+                            foreach($cleaning_preparations as $companies){
+                                $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                            <li>
+                                <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                    <?php echo $companies['Fmcg']['companies'];?></a>
+                            </li>
+                            <?php }?>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+                
+                <li><a href="">Personal Care Products</a>
+              <ul>
+                  <li><a href="#">Cream</a>
+                      <ul>
+                          <?php
+                          foreach($cream as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Perfumes</a>
+                      <ul>
+                          <?php
+                          foreach($perfumes as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Shaving Gels</a>
+                      <ul>
+                          <?php
+                          foreach($shaving_gels as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Cosmetics</a>
+                      <ul>
+                          <?php
+                          foreach($cosmetics as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Deodorant</a>
+                      <ul>
+                          <?php
+                          foreach($deodorant as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Hair Products</a>
+                      <ul>
+                          <?php
+                          foreach($hair_products as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Baby Materials</a>
+                      <ul>
+                          <?php
+                          foreach($baby_materials as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Sanitory Towel</a>
+                      <ul>
+                          <?php
+                          foreach($sanitory_towel as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Condoms</a>
+                      <ul>
+                          <?php
+                          foreach($condoms as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Health</a>
+                      <ul>
+                          <?php
+                          foreach($health as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Insecticide</a>
+                      <ul>
+                          <?php
+                          foreach($insecticide as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Toothpaste</a>
+                      <ul>
+                          <?php
+                          foreach($toothpaste as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+                  <li><a href="#">Others</a>
+                      <ul>
+                          <?php
+                          foreach($others as $companies){
+                              $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                          <li>
+                              <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                  <?php echo $companies['Fmcg']['companies'];?></a>
+                          </li>
+                          <?php }?>
+                      </ul>
+                  </li>
+              </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="#">
+            <i class="icon-cart-add2 position-left"></i>Shopping Products</a>
+            <ul>
+                <li><a href="#">Back to School</a>
+                   <ul>
+                       <li><a href="#">Book</a>
+                           <ul>
+                               <?php
+                               foreach($others as $companies){
+                                   $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                               <li>
+                                   <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                       <?php echo $companies['Fmcg']['companies'];?></a>
+                               </li>
+                               <?php }?>
+                           </ul>
+                       </li>
+                       <li><a href="#">Column2</a>
+                           <ul>
+                               <?php
+                               foreach($column1 as $companies){
+                                   $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                               <li>
+                                   <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                       <?php echo $companies['Fmcg']['companies'];?></a>
+                               </li>
+                               <?php }?>
+                           </ul>
+                       </li>
+                   </ul>
+                </li>
+                <li><a href="#">Personal Service</a>
+                 <ul>
+                     <li><a href="#">Column1</a>
+                         <ul>
+                             <?php
+                             foreach($column1 as $companies){
+                                 $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                             <li>
+                                 <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                     <?php echo $companies['Fmcg']['companies'];?></a>
+                             </li>
+                             <?php }?>
+                         </ul>
+                     </li>
+                 </ul>
+                </li>
+                <li><a href="#">Electronic Products</a>
+                  <ul>
+                      <li><a href="#">Mobile Phones</a>
+                          <ul>
+                              <?php
+                              foreach($mobile_phones as $companies){
+                                  $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                              <li>
+                                  <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                      <?php echo $companies['Fmcg']['companies'];?></a>
+                              </li>
+                              <?php }?>
+                          </ul>
+                      </li>
+                      <li><a href="#">Batteries</a>
+                          <ul>
+                              <?php
+                              foreach($batteries as $companies){
+                                  $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                              <li>
+                                  <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                      <?php echo $companies['Fmcg']['companies'];?></a>
+                              </li>
+                              <?php }?>
+                          </ul>
+                      </li>
+                      <li><a href="#">Household Electronics</a>
+                          <ul>
+                              <?php
+                              foreach($household_electronics as $companies){
+                                  $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                              <li>
+                                  <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                      <?php echo $companies['Fmcg']['companies'];?></a>
+                              </li>
+                              <?php }?>
+                          </ul>
+                      </li>
+                  </ul>
+                </li>
+                <li><a href="#">Household Materials</a>
+                <ul>
+                    <li><a href="#">Furniture</a>
+                        <ul>
+                            <?php
+                            foreach($furniture as $companies){
+                                $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                            <li>
+                                <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                    <?php echo $companies['Fmcg']['companies'];?></a>
+                            </li>
+                            <?php }?>
+                        </ul>
+                    </li>
+                    <li><a href="#">Other Materials</a>
+                        <ul>
+                            <?php
+                            foreach($other_materials as $companies){
+                                $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                            <li>
+                                <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                    <?php echo $companies['Fmcg']['companies'];?></a>
+                            </li>
+                            <?php }?>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            
+            <li><a href="#">
+            <i class="icon-cart position-left"></i>Speciality Products</a>
+            <ul>
+                <li><a href="#">High-End Luxury Automobile</a>
+                    <ul>
+                        <li><a href="#">Vehicles</a>
+                            <ul>
+                                <?php
+                                foreach($vehicles as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                </ul>
+                <li><a href="#">Processed Drinks and Alcohol</a>
+                    <ul>
+                        <li><a href="#">Spirits</a>
+                            <ul>
+                                <?php
+                                foreach($spirits as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Ethl Alcohol</a>
+                            <ul>
+                                <?php
+                                foreach($ethyl_alcohol as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Light Alcohol</a>
+                            <ul>
+                                <?php
+                                foreach($light_alcohol as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Wine</a>
+                            <ul>
+                                <?php
+                                foreach($wine as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Malt Liquors</a>
+                            <ul>
+                                <?php
+                                foreach($malt_liquors as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Soft Drinks, Mineral Waters</a>
+                            <ul>
+                                <?php
+                                foreach($soft_drinks as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Energy Drinks</a>
+                            <ul>
+                                <?php
+                                foreach($energy_drinks as $companies){
+                                    $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                <li>
+                                    <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                        <?php echo $companies['Fmcg']['companies'];?></a>
+                                </li>
+                                <?php }?>
+                            </ul>
+                        </li>
+                        <li><a href="#">Tobacco</a>
+                            <ul>
+                                <li><a href="#">Cigarette</a>
+                                    <ul>
+                                        <?php
+                                        foreach($cigarette as $companies){
+                                            $companies_id = $companies['Fmcg']['companies_id'];           ?>
+                                        <li>
+                                            <a href="<?php echo $this->webroot;?>fmcg/edit?company=<?php echo trim($companies_id);?>#food_products">
+                                                <?php echo $companies['Fmcg']['companies'];?></a>
+                                        </li>
+                                        <?php }?>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                </ul>
+                </li>
+            </ul>
+            <li>

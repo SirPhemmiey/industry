@@ -1,0 +1,970 @@
+
+<!-- Main Form -->
+<form action="#">
+<div class="panel panel-flat">
+<div class="panel-heading">
+<h5 class="panel-title">Industry: <b>Banking</b></h5>
+<div class="heading-elements">
+<ul class="icons-list">
+<li><a data-action="collapse"></a></li>
+</ul>
+</div>
+</div>
+
+<div class="panel-body">
+<div class="row">
+<!--Bank Details-->
+<div class="col-md-6">
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Bank name:</label>
+<input type="text" class="form-control" placeholder="Bank name">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+<fieldset class="text-semibold" id="accounts">
+<legend><i class="icon-reading position-left"></i> <strong>Accounts</strong></legend>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Current Account:</label>
+<div class="multi-select-full">
+<select class="multiselect-filtering" multiple="multiple">
+<optgroup label="Access Bank">
+<option value="individual current account">Individual Current Account</option>
+<option value="premier current account">Premier Current Account</option>
+<option value="gold current account">Gold Current Account</option>
+<option value="evergreen account">Evergreen Account</option>
+</optgroup>
+<optgroup label="Bank of Industry Ltd">
+
+
+
+</optgroup>
+<optgroup label="Diamond Bank">
+
+
+
+</optgroup>
+<optgroup label="Ecobank Plc">
+
+
+
+</optgroup>
+<optgroup label="Equitorial Trust Bank Limited">
+
+
+
+</optgroup>
+<optgroup label="First Bank of Nigeria Plc">
+<option value="normal current account">Normal Current Account</option>
+<option value="first current business">First Current Business</option>
+<option value="first current plus">First Current Plus</option>
+<option value="First Exclusive Current">First Exclusive Current</option>
+</optgroup>
+<optgroup label="Federal Mortgage Bank Limited of Nigeria">
+
+
+
+</optgroup>
+<optgroup label="Fidelity Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="First City Monument Banks Ltd">
+
+
+
+</optgroup>
+<optgroup label="Guaranty Trust Bank Plc">
+<option value="current account">Current Account</option>
+<option value="GT business account">GT Business Account</option>
+<option value="private banking current account">Private Banking Current Account</option>
+</optgroup>
+<optgroup label="Nigerian Agricultural, Co-oporative & Rural Development Bank Ltd">
+
+
+
+</optgroup>
+<optgroup label="Nigerian Education Bank">
+
+
+
+</optgroup>
+<optgroup label="StanbicIBTC Bank">
+
+
+
+</optgroup>
+<optgroup label="Standard Chattered Bank Nigeria Ltd">
+
+
+
+</optgroup>
+<optgroup label="Sterling Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="Syke Bank">
+<option value="skye current account">Skye Current Account</option>
+<option value="skye select current account">Skye Select Current Account</option>
+<option value="skye ascend current account">Skye Ascend Current Account</option>
+<option value="skye global account">Skye Global Account</option>
+<option value="skye community current account">Skye Community Current Account</option>
+<option value="skye business account">Skye Business Account(SBA)</option>
+<option value="SBA savings account">SBA Savings Account</option>
+</optgroup>
+<optgroup label="Union Bank of Nigeria Plc">
+
+
+
+</optgroup>
+<optgroup label="United Bank for Africa">
+
+
+
+</optgroup>
+<optgroup label="Unity Bank">
+
+
+
+</optgroup>
+<optgroup label="Wema Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="Zenith International Bank Ltd">
+<option value="individual current account">Individual Current Account</option>
+<option value="gold premium account">Gold Premium Account</option>
+<option value="platinum current account">Platinum Current Account</option>
+<option value="salary current account">Salary Current Account</option>
+<option value="salary savings account">Salary Savings Account</option>
+<option value="sole proprietorship/enterprise account">Sole Proprietorship/Enterprise Account</option>
+<option value="partnership accounts">Partnership Accounts</option>
+<option value="clubs,societies,associations">Clubs, Societies, Associations</option>
+<option value="trust fund">Trust Fund</option>
+<option value="limited liability company accounts">Limited Liability Company Accounts</option>
+<option value="parastatal/government agencies">Parastatal/Government Agencies</option>
+<option value="non-governmental organization account">Non-Governmental Organization Account (NGOs)</option>
+<option value="embassies and high commissions">Embassies and High Commissions</option>
+<option value="church account">Church Account</option>
+</optgroup>
+</select>
+</div>
+</div>
+
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Status Account:</label>
+<div class="multi-select-full">
+<select class="multiselect-filtering" multiple="multiple">
+<optgroup label="Access Bank">
+
+</optgroup>
+</optgroup>
+<optgroup label="Bank of Industry Ltd">
+
+
+
+</optgroup>
+<optgroup label="Diamond Bank">
+
+
+
+</optgroup>
+<optgroup label="Ecobank Plc">
+
+
+
+</optgroup>
+<optgroup label="Equitorial Trust Bank Limited">
+
+
+
+</optgroup>
+<optgroup label="First Bank of Nigeria Plc">
+<option value="premium banking">Premium Banking</option>
+
+
+</optgroup>
+<optgroup label="Federal Mortgage Bank Limited of Nigeria">
+
+
+
+</optgroup>
+<optgroup label="Fidelity Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="First City Monument Banks Ltd">
+
+
+
+</optgroup>
+<optgroup label="Guaranty Trust Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="Nigerian Agricultural, Co-oporative & Rural Development Bank Ltd">
+
+
+
+</optgroup>
+<optgroup label="Nigerian Education Bank">
+
+
+
+</optgroup>
+<optgroup label="StanbicIBTC Bank">
+
+
+
+</optgroup>
+<optgroup label="Standard Chattered Bank Nigeria Ltd">
+
+
+
+</optgroup>
+<optgroup label="Sterling Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="Syke Bank">
+
+
+
+</optgroup>
+<optgroup label="Union Bank of Nigeria Plc">
+
+
+
+</optgroup>
+<optgroup label="United Bank for Africa">
+
+
+
+</optgroup>
+<optgroup label="Unity Bank">
+
+
+
+</optgroup>
+<optgroup label="Wema Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="Zenith International Bank Ltd">
+
+
+
+</optgroup>
+</select>
+</div>
+</div>
+<div class="form-group  has-feedback has-feedback-left">
+<label>Term Deposit:</label>
+<div class="multi-select-full">
+<select class="multiselect-filtering" multiple="multiple">
+<optgroup label="Access Bank">
+<option value="call accounts/deposit">Call Accounts/Deposit</option>
+<option value="tenured deposits">Tenured Deposits</option>
+</optgroup>
+<optgroup label="Bank of Industry Ltd">
+
+
+
+</optgroup>
+<optgroup label="Diamond Bank">
+
+</optgroup>
+<optgroup label="Ecobank Plc">
+
+</optgroup>
+<optgroup label="Equitorial Trust Bank Limited">
+
+</optgroup>
+<optgroup label="First Bank of Nigeria Plc">
+<option value="fixed deposit account">Fixed Deposit Account</option>
+<option value="fixed premium term deposit">Fixed Premium Term Deposit</option>
+</optgroup>
+<optgroup label="Federal Mortgage Bank Limited of Nigeria">
+
+</optgroup>
+<optgroup label="Fidelity Bank Plc">
+
+</optgroup>
+<optgroup label="First City Monument Banks Ltd">
+
+</optgroup>
+<optgroup label="Guaranty Trust Bank Plc">
+<option value="tenured deposits">Tenured Deposits</option>
+<option value="fixed and tenured">Fixed and Tenured</option>
+<option value="call accounts">Call Accounts</option>
+</optgroup>
+<optgroup label="Nigerian Agricultural, Co-oporative & Rural Development Bank Ltd">
+
+</optgroup>
+<optgroup label="Nigerian Education Bank">
+
+</optgroup>
+<optgroup label="StanbicIBTC Bank">
+
+</optgroup>
+<optgroup label="Standard Chattered Bank Nigeria Ltd">
+
+</optgroup>
+<optgroup label="Sterling Bank Plc">
+
+</optgroup>
+<optgroup label="Syke Bank">
+<option value="term deposits">Term Deposits</option>
+</optgroup>
+<optgroup label="Union Bank of Nigeria Plc">
+
+</optgroup>
+<optgroup label="United Bank for Africa">
+
+</optgroup>
+<optgroup label="Unity Bank">
+
+</optgroup>
+<optgroup label="Wema Bank Plc">
+
+</optgroup>
+<optgroup label="Zenith International Bank Ltd">
+<option value="fixed deposit">Fixed Deposit</option>
+<option value="call deposit">Call Deposit</option>
+</optgroup>
+</select>
+</div>
+</div>
+<div class="form-group  has-feedback has-feedback-left">
+<label>Savings Account:</label>
+<div class="multi-select-full">
+<select class="multiselect-filtering" multiple="multiple">
+<optgroup label="Access Bank">
+<option value="early savers">Early Savers</option>
+<option value="solo">Solo</option>
+<option value="internet savings account">Internet Savings Account</option>
+<option value="premier savings account">Premier Savings Account</option>
+<option value="target savings account">Target Savings Account</option>
+<option value="evergreen account">Evergreen Account</option>
+<option value="access savings account">Access Savings Account</option>
+<option value="smart savers">Smart Savers</option>
+</optgroup>
+<optgroup label="Bank of Industry Ltd">
+
+
+
+</optgroup>
+<optgroup label="Diamond Bank">
+
+</optgroup>
+<optgroup label="Ecobank Plc">
+
+</optgroup>
+<optgroup label="Equitorial Trust Bank Limited">
+
+</optgroup>
+<optgroup label="First Bank of Nigeria Plc">
+<option value="normal savings account">Normal Savings Account</option>
+<option value="first savings plus">First Savings Plus</option>
+<option value="first instant account">First Intstant Account</option>
+<option value="xplore first">Xplore First</option>
+</optgroup>
+<optgroup label="Federal Mortgage Bank Limited of Nigeria">
+
+</optgroup>
+<optgroup label="Fidelity Bank Plc">
+
+</optgroup>
+<optgroup label="First City Monument Banks Ltd">
+
+</optgroup>
+<optgroup label="Guaranty Trust Bank Plc">
+<option value="GT save">GT Save</option>
+<option value="GTCrea8 eSavers">GTCrea8 eSavers</option>
+<option value="GTMax">GTMax</option>
+<option value="GTAuto"></option>
+<option value="GTEasy savers">GTEasy Savers</option>
+</optgroup>
+<optgroup label="Nigerian Agricultural, Co-oporative & Rural Development Bank Ltd">
+
+</optgroup>
+<optgroup label="Nigerian Education Bank">
+
+</optgroup>
+<optgroup label="StanbicIBTC Bank">
+
+</optgroup>
+<optgroup label="Standard Chattered Bank Nigeria Ltd">
+
+</optgroup>
+<optgroup label="Sterling Bank Plc">
+
+</optgroup>
+<optgroup label="Syke Bank">
+<option value="skye wise target savings account">Skye Wise Target Savings Account</option>
+<option value="skye save plus">Skye Save Plus</option>
+<option value="skye ascend current account">Skye Ascend Current Account</option>
+<option value="skye flex">Skye Flex</option>
+<option value="skye ease">Skye Ease</option>
+<option value="skye rainbow children's savings">Skye Rainbow Children's Savings</option>
+<option value="Skye campus plus savings">Skye Campus Plus Savings</option>
+<option value="Skye community savings">Skye Community Savings </option>
+</optgroup>
+<optgroup label="Union Bank of Nigeria Plc">
+
+</optgroup>
+<optgroup label="United Bank for Africa">
+
+</optgroup>
+<optgroup label="Unity Bank">
+
+</optgroup>
+<optgroup label="Wema Bank Plc">
+
+</optgroup>
+<optgroup label="Zenith International Bank Ltd">
+<option value="individual savings account">Individual savings account</option>
+<option value="eazySave premium account">EazySave Premium Account</option>
+<option value="eazySave classic account">EasySave Classic Accont</option>
+<option value="aspire account">Aspire Account</option>
+</optgroup>
+</select>
+</div>
+</div>
+
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Individual Retirement Account:</label>
+<div class="multi-select-full">
+<select class="multiselect-filtering" multiple="multiple">
+<optgroup label="Access Bank">
+
+</optgroup>
+<optgroup label="Bank of Industry Ltd">
+
+
+
+</optgroup>
+<optgroup label="Diamond Bank">
+
+
+
+</optgroup>
+<optgroup label="Ecobank Plc">
+
+
+
+</optgroup>
+<optgroup label="Equitorial Trust Bank Limited">
+
+
+
+</optgroup>
+<optgroup label="First Bank of Nigeria Plc">
+
+</optgroup>
+<optgroup label="Federal Mortgage Bank Limited of Nigeria">
+
+
+
+</optgroup>
+<optgroup label="Fidelity Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="First City Monument Banks Ltd">
+
+
+
+</optgroup>
+<optgroup label="Guaranty Trust Bank Plc">
+
+</optgroup>
+<optgroup label="Nigerian Agricultural, Co-oporative & Rural Development Bank Ltd">
+
+
+
+</optgroup>
+<optgroup label="Nigerian Education Bank">
+
+
+
+</optgroup>
+<optgroup label="StanbicIBTC Bank">
+
+
+
+</optgroup>
+<optgroup label="Standard Chattered Bank Nigeria Ltd">
+
+
+
+</optgroup>
+<optgroup label="Sterling Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="Union Bank of Nigeria Plc">
+
+
+
+</optgroup>
+<optgroup label="United Bank for Africa">
+
+
+
+</optgroup>
+<optgroup label="Unity Bank">
+
+
+
+</optgroup>
+<optgroup label="Syke Bank">
+
+</optgroup>
+<optgroup label="Wema Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="Zenith International Bank Ltd">
+
+</optgroup>
+</select>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Foreign Areas/Domiciliary:</label>
+<div class="multi-select-full">
+<select class="multiselect-filtering" multiple="multiple">
+<optgroup label="Access Bank">
+<option value="domiciliary accounts">Domiciliary Accounts</option>
+<option value="diaspora banking">Diaspora Banking</option>
+</optgroup>
+<optgroup label="Bank of Industry Ltd">
+
+
+
+</optgroup>
+<optgroup label="Diamond Bank">
+
+
+
+</optgroup>
+<optgroup label="Ecobank Plc">
+
+
+
+</optgroup>
+<optgroup label="Equitorial Trust Bank Limited">
+
+
+
+</optgroup>
+<optgroup label="First Bank of Nigeria Plc">
+<option value="first diaspora">First Diaspora</option>
+<option value="firstDom plus">FirstDom Plus</option>
+<option value="domiciliary account">Domiciliary Account</option>
+</optgroup>
+<optgroup label="Federal Mortgage Bank Limited of Nigeria">
+
+
+
+</optgroup>
+<optgroup label="Fidelity Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="First City Monument Banks Ltd">
+
+
+
+</optgroup>
+<optgroup label="Guaranty Trust Bank Plc">
+<option value="domiciliary account"></option>
+</optgroup>
+<optgroup label="Nigerian Agricultural, Co-oporative & Rural Development Bank Ltd">
+
+
+
+</optgroup>
+<optgroup label="Nigerian Education Bank">
+
+
+
+</optgroup>
+<optgroup label="StanbicIBTC Bank">
+
+
+
+</optgroup>
+<optgroup label="Standard Chattered Bank Nigeria Ltd">
+
+
+
+</optgroup>
+<optgroup label="Sterling Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="Union Bank of Nigeria Plc">
+
+
+
+</optgroup>
+<optgroup label="United Bank for Africa">
+
+
+
+</optgroup>
+<optgroup label="Unity Bank">
+
+
+
+</optgroup>
+<optgroup label="Syke Bank">
+
+</optgroup>
+<optgroup label="Wema Bank Plc">
+
+
+
+</optgroup>
+<optgroup label="Zenith International Bank Ltd">
+
+<option value="church account">Church Account</option>
+</optgroup>
+</select>
+</div>
+</div>
+
+
+</fieldset>
+</div>
+<!--Close Account Details-->
+
+
+<!--Card Services-->
+<div class="col-md-6">
+<fieldset>
+<legend class="text-semibold"><i class="icon-credit-card2 position-left"></i> <strong>Card Services</strong> </legend>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Debit Card:</label>
+<div class="input-group">
+<span class="input-group-addon"><i class="icon-user-tie"></i></span>
+<div class="multi-select-full">
+<select class="multiselect" multiple="multiple">
+<option value="naira debit card">Naira Debit Card</option>
+<option value="mastercard standard naira debit">Mastercard Standard Naira Debit</option>
+<option value="mastercard platinum naira debit">Mastercard Platinum Naira Debit</option>
+<option value="mastercard gold USD debit">Mastercard Gold USD Debit</option>
+<option value="visa naira debit">Visa Naira Debit</option>
+<option value="verve debit card">Verve Debit Card </option>
+</select>
+</div>
+</div>
+</div>
+
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Credit Card:</label>
+<div class="input-group">
+<span class="input-group-addon"><i class="icon-user-tie"></i></span>
+<div class="multi-select-full">
+<select class="multiselect" multiple="multiple">
+<option value="naira credit card">Naira Credit Card</option>
+<option value="USD credit cards">USD Credit Cards</option>
+<option value="mastercard platinum naira credit card">Mastercard Platinum Naira Credit Card</option>
+<option value="visa platinum USD credit card">Visa Platinum USD Credit Card</option>
+<option value="visa gold naira credit card">Visa Gold Naira Credit Card</option>
+<option value="visa gold USD credit card">Visa Gold USD Credit Card</option>
+<option value="visa classic naira credit card">Visa Classic Naira Credit Card</option>
+<option value="verve debit card">verve debit card </option>
+</select>
+</div>
+</div>
+</div>
+
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Others:</label>
+<div class="input-group">
+<span class="input-group-addon"><i class="icon-user-tie"></i></span>
+<div class="multi-select-full">
+<select class="multiselect" multiple="multiple">
+<option value="xplorer(prepaid)">Xplorer(Prepaid)</option>
+<option value="verve prepai">Verve Prepaid</option>
+<option value="mastercard platinum naira debit">Mastercard Prepaid</option>
+<option value="mastercard gold USD debit">Mastercard Gold USD Debit</option>
+<option value="visa naira debit">Visa Naira Debit</option>
+<option value="verve debit card">Verve Debit Card </option>
+</select>
+</div>
+</div>
+</div>
+
+</fieldset>
+</div>
+<!--Close Card Services-->
+
+<!--E Services-->
+<div class="col-md-6">
+<fieldset>
+<legend class="text-semibold"><img src="<?php echo $this->webroot;?>img/bitcoin-safety-shopping-shield-symbol.svg" alt="" width="20" height="20">&nbsp; &nbsp;<strong>E Service</strong> </legend>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Mobile/Internet Platform:</label>
+<input type="text" class="form-control" placeholder="Mobile/Internet Platform">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Transaction Banking:</label>
+<input type="text" class="form-control" placeholder="Transaction Banking">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Others2:</label>
+<input type="text" class="form-control" placeholder="Other2">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+</fieldset>
+</div>
+<!--Close E Services-->
+</div>
+
+<div class="row">
+
+<!--Loan and Services-->
+<div class="col-md-6">
+<fieldset>
+<legend class="text-semibold"><img src="<?php echo $this->webroot;?>img/stack-of-dollars-on-two-hands.svg" alt="" width="20" height="20">&nbsp; &nbsp;<strong>Loan and Services</strong> </legend>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Savings Account:</label>
+<input type="text" class="form-control" placeholder="Savings account">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Home Loans:</label>
+<input type="text" class="form-control" placeholder="Home loans">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Auto Loans:</label>
+<input type="text" class="form-control" placeholder="Auto loans">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Other Credit Facilities:</label>
+<input type="text" class="form-control" placeholder="Other credit facilities">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>International Trade Finance:</label>
+<input type="text" class="form-control" placeholder="International trade finance">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Small Businesses Loans/SME Finance:</label>
+<input type="text" class="form-control" placeholder="Small businesses loans">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Health:</label>
+<input type="text" class="form-control" placeholder="Health">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Education:</label>
+<input type="text" class="form-control" placeholder="Education">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Public Sector:</label>
+<input type="text" class="form-control" placeholder="Public sector">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Unsecured Signature Or Personal Loans:</label>
+<input type="text" class="form-control" placeholder="Unsecure signature and personal loans">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Home Equity Lines Of Credit:</label>
+<input type="text" class="form-control" placeholder="Home equity lines of credit">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+</fieldset>
+</div>
+<!--Close Loan and Services-->
+
+
+<!--Investments-->
+<div class="col-md-6">
+<fieldset>
+<legend class="text-semibold"><img src="<?php echo $this->webroot;?>img/wallet.svg" alt="" width="20" height="20">&nbsp; &nbsp;<strong>Investments</strong> </legend>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Annuities:</label>
+<input type="text" class="form-control" placeholder="Annuities">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Insurance:</label>
+<input type="text" class="form-control" placeholder="Insurance">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Stocks, Bounds, Mutual Funds and Wealth:</label>
+<input type="text" class="form-control" placeholder="Stocks, bounds, mutual funds and wealth">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+</fieldset>
+</div>
+<!--Close Investments-->
+
+<!--Money Transfer Services-->
+<div class="col-md-6">
+<fieldset>
+<legend class="text-semibold"><img src="<?php echo $this->webroot;?>img/money-transfer.svg" alt="" width="20" height="20">&nbsp; &nbsp;<strong>Money Transfer Services</strong> </legend>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Local Transfer:</label>
+<input type="text" class="form-control" placeholder="Local transfer">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>International Money Services:</label>
+<input type="text" class="form-control" placeholder="International money services">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+</fieldset>
+</div>
+<!--Close Money Transfer Services-->
+
+<!--Merchant Services-->
+<div class="col-md-6">
+<fieldset>
+<legend class="text-semibold"><img src="<?php echo $this->webroot;?>img/credit-card-payment.svg" alt="" width="20" height="20">&nbsp; &nbsp;<strong>Merchant Services</strong> </legend>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Current Account Services:</label>
+<input type="text" class="form-control" placeholder="Current account services">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Merchant Other Services:</label>
+<input type="text" class="form-control" placeholder="Merchant other services">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+</fieldset>
+</div>
+<!--Close Merchant Services-->
+
+<!--Kids and Teens-->
+<div class="col-md-6">
+<fieldset>
+<legend class="text-semibold"><img src="<?php echo $this->webroot;?>img/kids.svg" alt="" width="20" height="20">&nbsp; &nbsp;<strong>Kids and Teens</strong> </legend>
+
+<div class="form-group  has-feedback has-feedback-left">
+<label>Savings Account:</label>
+<input type="text" class="form-control" placeholder="Savings account">
+<div class="form-control-feedback">
+<i class="icon-pencil7"></i>
+</div>
+</div>
+
+</fieldset>
+</div>
+<!--Close Kids and Teens-->
+</div>
+
+<div class="text-right">
+<button type="button" id="update" class="btn btn-primary">Update <i class="icon-arrow-right14 position-right"></i></button>
+</div>
+</div>
+</div>
+</form>
+<!-- Close Main Form -->
+
+<script>
+$(document).ready(function(){
+$(document).on('click', '#update', function(){
+
+});
+});
+</script>
